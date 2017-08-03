@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+
+
+<test name="Learning assertions">
+    <classes>
+        <class name="com.qtpselenum.core.ddf.testcases.DummyTestA" ></class>  
+    </classes>
+</test>
+
+<test name="Application Login">
+    <classes>
+        <class name="com.qtpselenum.core.ddf.testcases.DummyTestB" ></class>  
+    </classes>
+</test>
+
+<test name="Selling Books">
+    <classes>
+        <class name="com.qtpselenum.core.ddf.testcases.DummyTestC" ></class>  
+    </classes>
+</test>
+
+
+</suite>
